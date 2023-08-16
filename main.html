@@ -4,13 +4,51 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+<style>
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration-line: none;
+    }
+    video{
+        background-color: rgb(255, 255, 255); 
+        padding:2px; 
+        border-radius:5px;
+    }
+    audio{
+        background-color: rgb(255, 255, 255); 
+        padding:2px; 
+        border-radius:5px;
+    }
+
+</style>
+
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<div>
+    <h1 style="text-align: center;">My Playlist</h1>
+    <h2 style="text-align: center;">Now Playing</h2>
+    <h2 style="text-align: center;">Mp3 songs</h2>
+</div>
+<div>
+    <ul>
+        <li><a href="www.example.com" target="_blank">link</a></li>
+        <li><a href="www.example.com" target="_blank">linky</a></li>
+        <li><a href="www.example.com" target="_blank">linky</a></li>
+        <li><a href="www.example.com" target="_blank">linky</a></li>
+    </ul>
+</div>
+<video class=".player_one" controls>
+    <source src="www.example.com.ogg" type="mp4">
+</video>
+<audio class=".player_two" controls>
+    <source src="www.example.com.mp3" type="mp3">
+</audio>
 </body>
 
 </html>
